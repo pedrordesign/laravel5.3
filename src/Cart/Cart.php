@@ -28,7 +28,7 @@ class Cart
 
     public function applyCupom(Cupom $cupom)
     {
-        $this->total = $cupom->getTotal($this->total);
+            $this->total = $cupom->getTotal($this->total    );
     }
 
     public function getTotal()

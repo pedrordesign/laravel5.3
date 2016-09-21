@@ -11,6 +11,7 @@ namespace CodeEducation\Cart;
 
 class CupomPercentage extends Cupom
 {
+
     /**
      * @return mixed
      */

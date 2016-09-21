@@ -14,6 +14,7 @@ class Cupom
 
     protected $total;
     protected $code;
+    protected $type;
 
     /**
      * @return mixed
@@ -46,6 +47,25 @@ class Cupom
     {
         $this->code = $code;
     }
+
+    /**
+     * @return mixed
+     */
+    public function getType()
+    {
+        return $this->type;
+    }
+
+    /**
+     * @param mixed $type
+     * @return Cupom
+     */
+    public function setType($type)
+    {
+        $this->type = $type;
+        return $this;
+    }
+
 
 
 }

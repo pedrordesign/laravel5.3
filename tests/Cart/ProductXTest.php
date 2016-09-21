@@ -24,7 +24,6 @@ class ProductXTest extends \PHPUnit_Framework_TestCase
         $productX->setPrice(10);
 
         $this->assertEquals(10, $productX->getPrice());
-
     }
 
 }
